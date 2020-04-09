@@ -20,16 +20,16 @@ interface Writer extends OutputStream
 
     /**
      * Set default mode to write frames.
-     * @param string $mode
+     * @param string $defaultMode
      * @throws \InvalidArgumentException if unknown mode is passed
      */
-    public function setMode(string $mode): void;
+    public function setDefaultMode(string $defaultMode): void;
 
     /**
      * Get current default write mode.
      * @return string
      */
-    public function getMode(): string;
+    public function getDefaultMode(): string;
 
     /**
      * @inheritDoc
