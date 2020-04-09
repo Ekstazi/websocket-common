@@ -32,8 +32,3 @@ same as forcefully closing the stream. This method waits for all pending writes 
 stream. Socket streams implementing this interface should only close the writable side of the stream.
 
 ## `interface Connection extends Reader, Writer`
-### Methods
-#### `public function getId(): int`
-Return Unique identifier for the client.
-#### `public function getRemoteAddress(): string`
-Return remote address of connection
