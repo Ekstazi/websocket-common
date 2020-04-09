@@ -13,7 +13,7 @@ trait SetModeTrait
 {
     private $defaultMode;
 
-    public function setDefaultMode(string $defaultMode)
+    public function setDefaultMode(string $defaultMode): void
     {
         $this->guardValidMode($defaultMode);
         $this->defaultMode = $defaultMode;
