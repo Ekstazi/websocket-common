@@ -11,7 +11,7 @@ interface Reader extends InputStream
 
     /**
      * @inheritDoc
-     * @throws ClosedException Thrown if the connection is closed.
+     * @throws ClosedException Thrown if the connection is closed with error.
      */
     public function read(): Promise;
 }
