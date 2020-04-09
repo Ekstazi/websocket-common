@@ -7,7 +7,7 @@ This package can be installed as a Composer dependency.
 # Requirements
 PHP 7.2+
 # Interfaces
-Two interfaces provided
+Three interfaces provided
 ## `interface Reader extends InputStream`
 ### Methods
 #### `read(): Promise<string>`
